@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/frankrap/bybit-api/ws"
 	"log"
+
+	"github.com/buurz-forks/bybit-api/ws"
 )
 
 func main() {
