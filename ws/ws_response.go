@@ -36,16 +36,18 @@ type Trade struct {
 }
 
 type KLine struct {
-	ID       int64   `json:"id"`        // 563
-	Symbol   string  `json:"symbol"`    // BTCUSD
-	OpenTime int64   `json:"open_time"` // 1539918000
-	Open     float64 `json:"open"`
-	High     float64 `json:"high"`
-	Low      float64 `json:"low"`
-	Close    float64 `json:"close"`
-	Volume   float64 `json:"volume"`
-	Turnover float64 `json:"turnover"` // 0.0013844
-	Interval string  `json:"interval"` // 1m
+	ID        int64   `json:"id"`        // 563
+	Symbol    string  `json:"symbol"`    // BTCUSD
+	OpenTime  int64   `json:"open_time"` // 1539918000
+	Open      float64 `json:"open"`
+	High      float64 `json:"high"`
+	Low       float64 `json:"low"`
+	Close     float64 `json:"close"`
+	Volume    float64 `json:"volume"`
+	Turnover  float64 `json:"turnover"` // 0.0013844
+	Interval  string  `json:"interval"` // 1m
+	Confirm   bool    `json:"confirm"`
+	Timestamp int64   `json:"timestamp"`
 }
 
 type Insurance struct {
